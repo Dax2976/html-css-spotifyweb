@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+--sidebar: rgba(0, 0, 0, 1);
+--navbar: rgba(8, 11, 18, 1);
+--bodycolor: rgba(20, 25, 34, 1);
+--textcolorside: rgba(40, 40, 40, 1);
+--textcolorbody: rgba(90, 90, 90, 1);
+--textplaynow: rgba(113, 113, 113, 1);
+--playnow: rgba(121, 124, 128, 1);
+--titlecolorbody: rgba(255, 255, 255, 1);
+}
+
+.flex{
+    display: flex;
+}
