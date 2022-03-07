@@ -15,6 +15,8 @@
 --playnow: rgba(121, 124, 128, 1);
 --titlecolorbody: rgba(255, 255, 255, 1);
 --succes: rgba(173, 255, 47, 1);
+--playng:rgba(40, 40, 40, 1);
+
 
 }
 
@@ -24,7 +26,7 @@
 
 .body_container{
     width: 100%;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 80px);
 }
 
 .clearfix{
@@ -67,10 +69,10 @@ a{
 }
 
 
-.fa-solid{
+.fa-plus-square{
    font-size: 40px;
    width: 33px;
-   color: #a3a3a3;
+   color: var(--textcolorbody);
    margin-bottom: 15px;
 }
 
@@ -227,4 +229,137 @@ nav  a {
    margin-left: 17px;
    margin-top: 5px;
     
+}
+
+/* playng */
+
+.nowplaying{
+    width: 100%;
+    height: 90px;
+    background-color: var(--playng);
+    justify-content: space-between;
+    position: relative;
+}
+
+.cont_img{
+    width: 42px;
+}
+
+.cont_img img{
+    width: 100%;
+}
+
+.traccia{
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+.nome a{
+    font-size: 15px;
+    color: white;
+}
+
+.artista a{
+    font-size: 11px;
+    color: white;
+}
+
+.icona-traccia{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icona-traccia i{
+    color: var(--textcolorbody);
+    margin: 0 9px;
+}
+
+.buttontime_line{
+    flex-direction: column;
+    height: 70px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.time_btn{
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time_btn i{
+    color: white;
+}
+
+.fa-circle-play {
+    font-size: 30px;
+}
+
+.passato,.rimasto{
+    font-size: 12px;
+    color: white;
+}
+
+.time_line {
+    justify-content: space-between;
+    align-items: center;
+    min-width: 200px;
+    width: 35vw;
+}
+
+.barside{
+    width: 85%;
+    height: 4px;
+    background-color: var(--textcolorbody);
+    border-radius: 2px;
+    margin: 0 5px;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: -7.5px;
+    bottom: -5.5px;
+    background-color: white;
+    border-radius: 50%;
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    height: 4px;
+    background-color: #a3a3a3;
+    position: relative;
+}
+
+.right {
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+    width: 200px;
+}
+
+.left {
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    width: 210px;
+}
+
+.volume {
+    width: 100%;
+    height: 4px;
+    background-color:var(--textcolorbody);
+    border-radius: 2px;
+}
+
+.right i {
+    margin: 0 5px;
+}
+
+a i {
+    color: white;
 }
