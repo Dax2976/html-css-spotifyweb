@@ -80,7 +80,7 @@ a{
 
 .home>a, .search>a, .library>a {
     float: left;
-    font-size: 12px;
+    font-size: 14px;
     color: var(--textcolorbody);
 }
 
@@ -110,7 +110,8 @@ a{
 .nuova a{
     color: lightgray;
     float: left;
-    font-size: 14px;
+    font-size: 16px;
+    padding-left: 5px;
 }
 
 li{
@@ -125,7 +126,7 @@ ul{
 
 li a {
     color: var(--textcolorbody);
-    font-size: 12px;
+    font-size: 14px;
 }
 
 
@@ -168,12 +169,4 @@ li a {
     background-color: var(--textcolorbody);
     float: left;
 }
-/* 
-#leftlign{
-    height: 35px;
-    width: 3px;
-    background-color: #adff2f;
-    position: absolute;
-    right: 83px;
-    top: -7.5px
-} */
+
