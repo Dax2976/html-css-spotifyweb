@@ -273,9 +273,9 @@ li a {
 /* /played recently */
 /* su misura per te */
 
-#per_te{
+/* #per_te{
     margin-top: -300px;
-}
+} */
 
 #per_te h2 {
     color: white;
@@ -299,9 +299,9 @@ li a {
 /* /su misura per te */
 /* popolari */
 
-.popolari{
+/* .popolari{
     margin-top: -300px;
-}
+} */
 
 .popolari h2 {
     color: white;
@@ -535,3 +535,39 @@ i:hover{
 }
 /* /effects */
 
+/********** Media Query **********/
+
+
+@media screen and (max-width: 1024px) {
+    .played_element {
+      flex-basis: calc(100% / 4 - 30px);
+      margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .played_element {
+      flex-basis: calc(100% / 2 - 30px);
+      margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 443px) {
+    .played_element {
+        flex-basis: calc(100% - 1px);
+        margin: 0 10px;
+        
+    }
+    .playlist, a,.logo,.installa{
+        display: none;
+    }
+
+    .sidebar{
+        width: 13%;
+    }
+
+    .head{
+        width: 100%;
+    }
+    
+}
