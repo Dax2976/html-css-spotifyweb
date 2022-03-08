@@ -251,15 +251,38 @@ li a {
   }
   
 .played_element .cover_text p {
-    color: #999999;
+    color: var(--textcolorbody);
     font-size: 13px;
     padding-top: 10px;
 }
-  
-
-  
-
 /* /played recently */
+/* su misura per te */
+
+#per_te{
+    margin-top: -300px;
+}
+
+#per_te h2 {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+#per_te> p {
+    color: var(--textcolorbody);
+    font-size: 12px;
+    margin-left: 20px;
+    padding-bottom: 25px;
+}
+
+.text{
+    color: white;
+    margin-top: 10px;
+}
+
+
+/* /su misura per te */
 .btn{
     padding: 12px 30px;
     color: white;
