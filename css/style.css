@@ -281,8 +281,34 @@ li a {
     margin-top: 10px;
 }
 
-
 /* /su misura per te */
+/* popolari */
+
+.popolari{
+    margin-top: -300px;
+}
+
+.popolari h2 {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+.popolari> p {
+    color: var(--textcolorbody);
+    font-size: 12px;
+    margin-left: 20px;
+    padding-bottom: 25px;
+}
+
+.popolari .played_element .cover img{
+    border-radius: 50%;
+    width: 100%;
+}
+
+
+/* /popolari */
 .btn{
     padding: 12px 30px;
     color: white;
