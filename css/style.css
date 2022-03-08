@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-/* common */
+/* common  */
+/* *************** SISTEMARE COLORI */
 :root{
 --sidebar: rgba(0, 0, 0, 1);
 --navbar: rgba(8, 11, 18, 1);
@@ -89,6 +90,13 @@ a{
     color: var(--textcolorbody);
 }
 
+.icona_home{
+    width: 28px;
+    float: left;
+    margin-right: 8px;
+    border-left: 2px solid greenyellow;
+
+}
 
 .home>a{
     color: white;
@@ -98,6 +106,8 @@ a{
     margin-top: 15px;
     height: 100%;
     overflow: hidden;
+   
+    
 }
 
 .nuova>h4{
@@ -113,7 +123,7 @@ a{
 }
 
 .nuova a{
-    color: lightgray;
+    color: var(--textcolorbody);
     float: left;
     font-size: 16px;
     padding-left: 5px;
@@ -123,10 +133,12 @@ li{
     margin-bottom: 22px;
 }
 
+
 ul{
     list-style: none;
     height: calc(100vh - 98px);
     overflow: auto;
+    
 }
 
 li a {
@@ -237,11 +249,13 @@ li a {
 }
   
 .played_element:hover .cover img {
-    opacity: 0.5;
+    opacity: 0.7;
+    
 }
   
 .played_element:hover .cover .img_hover {
     display: block;
+    
 }
 
 .played_element .cover_text h3 {
@@ -380,7 +394,7 @@ nav  a {
 
 .artista a{
     font-size: 11px;
-    color: white;
+    color: var(--textcolorbody);
 }
 
 .icona-traccia{
@@ -481,3 +495,41 @@ nav  a {
 a i {
     color: white;
 }
+
+
+/* effects */
+
+.nuova:hover i{
+    color: white;
+}
+
+a:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: 60ms linear;
+}
+
+i:hover{
+    color: white;
+}
+
+.artista a:hover{
+    text-decoration: underline;
+}
+
+.fa-circle-play:hover{
+    transform: scale(1.3);
+    transition: 90ms linear;
+}
+.slide:hover{
+    background-color: greenyellow;
+}
+
+.slide:hover .circle{
+    display: block;
+}
+/* /effects */
