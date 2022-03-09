@@ -26,6 +26,12 @@
     display: flex;
 }
 
+/* .logo,.home,.search,.library,.playlist,.installa,.profilo{
+    padding: 20px;
+    
+} */
+
+
 .body_container{
     width: 100%;
     height: calc(100vh - 80px);
@@ -137,7 +143,7 @@ li{
 
 ul{
     list-style: none;
-    height: calc(100vh - 98px);
+    height: calc(100vh - 80px);
     overflow: auto;
     
 }
@@ -154,7 +160,7 @@ li a {
     margin-top: auto;
 }
 
-.installa{
+.installahr{
     border-bottom: 1px solid var(--textcolorside);
 
 }
@@ -187,18 +193,25 @@ li a {
     background-color: var(--textcolorside);
     float: left;
 }
+
+.fa-spotify{
+    /* color: white; */
+    font-size: 30px;
+    display: none;
+    
+}
 /* /sidebar */
 
 /* main song */
 .main_container{
-    width: calc(100% - 230px);
+    width: calc(100% - 100px);
     height: 100%;
     background-color: var(--bodycolor);
 }
 
 .head{
     width: 100%;
-    height: 102px;
+    height: 100px;
     background-color: var(--navbar);
     align-items: center;
     justify-content: flex-end;
@@ -553,12 +566,38 @@ i:hover{
 }
 
 @media screen and (max-width: 443px) {
+    
     .played_element {
-        flex-basis: calc(100% - 1px);
+        flex-basis: calc(100% / 3);
         margin: 0 10px;
-        
+        overflow: none;
     }
-    .playlist, a,.logo,.installa{
+   
+    .imglogo, .playlist{
+        display: none;
+    }
+
+    .search> a {
+        display: none;
+    }
+
+    .home>a{
+        display: none;
+    }
+
+    .library>a{
+        display: none;
+    }
+    
+    .installa>a{
+        display: none;
+    }
+
+    .installahr{
+        display: none;
+    }
+
+    .profilo>a{
         display: none;
     }
 
@@ -566,8 +605,35 @@ i:hover{
         width: 13%;
     }
 
-    .head{
-        width: 100%;
-    }
     
+    .fa-spotify{
+        display: block;
+        color: white;
+    }
+
+    .main_container{
+        max-width: 443px;
+    }
+
+    .main_container>.head{
+        max-width: 443px;
+        width: 400px;
+        
+    }
+
+    .btn{
+        display: block;
+    }
+
+    .cont_img{
+        display: none;
+    }
+
+    ul{
+        width: 450px;
+    }
+
+    .nowplaying{
+        width: 459px;
+    }
 }
