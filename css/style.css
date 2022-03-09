@@ -146,7 +146,7 @@ li{
 
 ul{
     list-style: none;
-    height: calc(100vh - 80px);
+    
     overflow: auto;
     
 }
@@ -573,7 +573,7 @@ i:hover{
     .played_element {
         flex-basis: calc(100% / 3);
         margin: 0 10px;
-        overflow: none;
+        /* overflow: none; */
     }
    
     .imglogo, .playlist{
@@ -584,7 +584,7 @@ i:hover{
         display: none;
     }
 
-    .home>a{
+    .icona_home>a{
         display: none;
     }
 
@@ -638,6 +638,7 @@ i:hover{
 
     .nowplaying{
         width: 459px;
+        height: 100px;
     }
 
     .installa>img{
