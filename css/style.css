@@ -645,3 +645,12 @@ i:hover{
         margin-bottom: 5px;
     }
 }
+
+
+@media screen and (max-height: 420px){
+
+    .head{
+        display: none;
+    }
+
+}
