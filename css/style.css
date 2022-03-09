@@ -636,4 +636,8 @@ i:hover{
     .nowplaying{
         width: 459px;
     }
+
+    .installa>img{
+        margin-bottom: 5px;
+    }
 }
