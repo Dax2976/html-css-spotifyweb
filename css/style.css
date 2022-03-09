@@ -70,7 +70,7 @@ a{
     padding-bottom: 30px;
 }
 
-.home,.search,.library{
+.icona_home,.search,.library{
     line-height: 28px;
     vertical-align: middle;
     margin-bottom: 10px;
@@ -91,17 +91,20 @@ a{
 
 }
 
-.home>a, .search>a, .library>a {
+.icona_home>a, .search>a, .library>a {
     float: left;
     font-size: 14px;
     color: var(--textcolorside);
 }
 
 .icona_home{
-    width: 28px;
+    /* width: 28px; */
     float: left;
     margin-right: 8px;
     border-left: 2px solid greenyellow;
+    margin-left: -17px;
+    padding-left: 15px;
+   
 
 }
 
