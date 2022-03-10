@@ -298,13 +298,16 @@ a{
     width: 33%;
     overflow: auto;
     background-color: #a3a3a3;
+    flex-direction: column;
 }
 
-img{
+.col33>img{
     width: 40px;
-    
 }
-  
+
+.col33>span{
+    display: inline-block;
+}
 
 
 
