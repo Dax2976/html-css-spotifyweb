@@ -560,15 +560,6 @@ i:hover{
       margin: 0 10px;
     }
 
-    ul{
-        height: 18rem;
-    }
-
-    section{
-        flex-wrap: wrap;
-        overflow-x: hidden;
-    }
-
     
 
     .btn{
@@ -587,8 +578,6 @@ i:hover{
       flex-basis: calc(100% / 2 - 30px);
       margin: 0 10px;
     }
-
-    
 }
 
 @media screen and (max-width: 443px) {
