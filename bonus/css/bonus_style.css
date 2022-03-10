@@ -78,9 +78,9 @@ a{
 
 
 .fa-plus-square{
-   font-size: 40px;
-   width: 33px;
-   color: var(--textcolorside);
+   font-size: 30px;
+   width: 30px;
+   color: white;
    margin-bottom: 15px;
 }
 
@@ -94,14 +94,14 @@ a{
 .icona_home>a, .search>a, .library>a {
     float: left;
     font-size: 14px;
-    color: var(--textcolorside);
+    color: white;
 }
 
 .icona_home{
     /* width: 28px; */
     float: left;
     margin-right: 8px;
-    border-left: 2px solid greenyellow;
+    /* border-left: 2px solid greenyellow; */
     margin-left: -17px;
     padding-left: 15px;
    
@@ -133,10 +133,11 @@ a{
 }
 
 .nuova a{
-    color: var(--textcolorside);
+   
     float: left;
     font-size: 16px;
     padding-left: 5px;
+    margin: -5px;
 }
 
 li{
@@ -157,11 +158,11 @@ li a {
 }
 
 
-.utente{
+/* .utente{
     color: var(--textcolorside);
     height: 40px;
     margin-top: auto;
-}
+} */
 
 .installahr{
     border-bottom: 1px solid var(--textcolorside);
@@ -169,33 +170,31 @@ li a {
 }
 
 .installa a {
-    color: var(--textcolorside);
+    color: white;
 }
 
 .installa img{
     width: 20px;
 }
 
-.profilo{
-    margin-top: 12px;
-    line-height: 20px;
-    vertical-align: middle;
+.fa-heart{
+    font-size: 25px;
+    border:1px solid;
+    background-color: aqua;
+    color: white !important;
+    
 }
 
-.profilo a {
-    float: left;
+a{
     color: white;
-    font-size: 14px;
-    margin-left: 10px;
 }
 
-.profilo img{
-    width: 25px;
-    height: 25px;
-    border-radius: 25px;
-    background-color: var(--textcolorside);
-    float: left;
+.pp{
+    color: var(--textcolorside);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
 
 .fa-spotify{
     /* color: white; */
@@ -205,137 +204,12 @@ li a {
 }
 /* /sidebar */
 
-/* main song */
-.main_container{
-    width: calc(100% - 100px);
-    height: 100%;
-    background-color: var(--bodycolor);
+.myplay{
+    padding: 8px;
 }
 
-.head{
-    width: 100%;
-    height: 100px;
-    background-color: var(--navbar);
-    align-items: center;
-    justify-content: flex-end;
-}
-
-/* played recently */
-#played h2 {
-    color: white;
-    padding: 20px 0px;
-    margin-left: 20px;
-}
-
-.played_list {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 10px;
-}
-
-.played_element {
-    flex-basis: calc(100% / 7);
-    margin: 0 10px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-.played_element .cover {
-    position: relative;
-}
-
-.played_element .cover img {
-    width: 100%;
-}
-
-#play{
-    size: 60px;
-}
-
-.played_element .cover .img_hover {
-    font-size: 80px;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-    display: none;
-}
-.played_element:hover {
-    cursor: pointer;
-}
-  
-.played_element:hover .cover img {
-    opacity: 0.7;
-    
-}
-  
-.played_element:hover .cover .img_hover {
-    display: block;
-    
-}
-
-.played_element .cover_text h3 {
-    color: white;
-    padding-top: 10px;
-    line-height: 16px;
-  }
-  
-.played_element .cover_text p {
-    color: var(--textbodysub);
-    font-size: 13px;
-    padding-top: 10px;
-}
-/* /played recently */
-/* su misura per te */
-
-/* #per_te{
-    margin-top: -300px;
-} */
-
-#per_te h2 {
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    margin-left: 20px;
-}
-
-#per_te> p {
-    color: var(--textbodysub);
-    font-size: 12px;
-    margin-left: 20px;
-    padding-bottom: 25px;
-}
-
-.text{
-    color: white;
-    margin-top: 10px;
-}
-
-/* /su misura per te */
-/* popolari */
-
-/* .popolari{
-    margin-top: -300px;
-} */
-
-.popolari h2 {
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    margin-left: 20px;
-}
-
-.popolari> p {
-    color: var(--textbodysub);
-    font-size: 12px;
-    margin-left: 20px;
-    padding-bottom: 25px;
-}
-
-.popolari .played_element .cover img{
-    border-radius: 50%;
-    width: 100%;
+.fa-heart{
+    color:var(--textcolorside)
 }
 
 
