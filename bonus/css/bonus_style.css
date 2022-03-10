@@ -44,7 +44,7 @@
 }
 
 body{
-    overflow: hidden;
+    overflow: auto;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
     
@@ -222,6 +222,7 @@ a{
 .main_container{
     width: calc(100% - 100px);
     height: 100%;
+    background-color: #a3a3a3;
     
 }
 
@@ -246,6 +247,8 @@ a{
     height: 25%;
 
 }
+
+
 
 .metal{
     height: 200px;
@@ -284,12 +287,23 @@ a{
 }
 
 
+
 .row{
-    background-color: rgb(97, 99, 97);
-    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
 }
 
+.col33{
+    width: 33%;
+    overflow: auto;
+    background-color: #a3a3a3;
+}
 
+img{
+    width: 40px;
+    
+}
   
 
 
