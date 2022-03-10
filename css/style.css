@@ -566,7 +566,7 @@ i:hover{
 
     section{
         flex-wrap: wrap;
-        overflow-x: hidden;
+        overflow: hidden;
     }
 
     
